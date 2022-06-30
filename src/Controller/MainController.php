@@ -14,4 +14,10 @@ class MainController extends AbstractController
     {
         return $this->render('main/index.html.twig');
     }
+
+    #[Route('/truc/machin')]
+    public function trucMachin(): Response
+    {
+        dd('Hello trucMachin');
+    }
 }
